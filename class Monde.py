@@ -10,3 +10,6 @@ class Monde(dimension,duree_repousse,carte):
         if self.contenu[i][j]>self.duree_repousse:
           cpt += 1
     return cpt
+  
+  def Herbepousse(self):
+    for i in range(self.dimension):
